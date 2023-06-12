@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #ab8f97;
+    display: flex;
+}
+nav{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    align-items: center;
+    left: 6%;
+    top: 5%;
+    justify-content: space-between;
+}
+nav img{
+    width: 50px;
+}
+nav h5{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(243, 136, 163);
+}
+#first{
+    width: 25%;
+    height: 100%;
+    background-color: #ab8f97;
+}
+#second{
+    width: 60%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: top;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #b4939d57;
+}
+#third{
+    width: 15%;
+    height: 100%;
+    background-color: #ab8f97;
+}
+#text{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+#text>h1{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #d2f5f0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+#small-img{
+    height: 280px;
+    width: 200px;
+    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+#verticalText{
+    color: #d2f5f0;
+    transform-origin: 0% 0%;
+    position: absolute;
+    right: -15%;
+    top: 50%;
+}
+#verticalText h2{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #d2f5f0;
+    color: transparent;
+    letter-spacing: 10px;
+    transform: rotate(90deg);
+}
